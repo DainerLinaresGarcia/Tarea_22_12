@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.naranja,
+.verde,
+.azul,
+.violeta{
+    height: 200px;
+    width: 300px;
+    margin: 5px;
+}
+.azul{
+   background-color: blue;
+   position: relative;
+   left: 40%;
+   width: 50px;
+   height: 0px;
+   border-left: 30px solid green;
+   border-bottom: 40px solid saddlebrown;
+
+}
+.naranja{
+    background-color: orange;
+    position: relative;
+    left: 70%;
+    border-radius: 20px;
+}
+.verde{
+     background-color: green;
+     position: relative;
+     left: 20%;
+     width: 70px ;
+     height: 70px;
+     border: 20px solid salmon;
+}
+.violeta{
+background-color: blueviolet;
+border-radius: 50px;
+border-bottom: 5px solid saddlebrown;
+border-left: 5px solid seagreen;
+}
+.rojo{
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+}
